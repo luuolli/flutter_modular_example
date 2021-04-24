@@ -25,7 +25,7 @@ class Page1Page extends StatelessWidget {
                 style: TextButton.styleFrom(backgroundColor: Colors.grey[900]),
                 child: Text('Navegar => 1.1'),
                 onPressed: () {
-                  Modular.to.pushNamed('page1/subpage1', forRoot: true);
+                  Modular.to.pushNamed('jogo/subpage1', forRoot: true);
                 }),
           ],
         ),
